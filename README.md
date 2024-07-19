@@ -60,3 +60,8 @@ TRIALLY_TAKE-HOME/
 ├── docker-compose.yml
 └── README.md
 
+____
+
+I got the database init script, and began on building the backend
+
+
