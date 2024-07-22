@@ -14,7 +14,6 @@ const TaskList = ({ tasks, fetchTasks }) => {
           <h2>{task.title}</h2>
           <p>{task.description}</p>
           <p>Status: {task.status}</p>
-          <p>Due Date: {new Date(task.due_date).toLocaleDateString()}</p>
           <button onClick={() => deleteTask(task.id)}>Delete</button>
         </li>
       ))}
