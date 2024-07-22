@@ -11,7 +11,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@db/taskdb
+      - DB_URL=postgresql://${DB_USER}:${DB_PASSWORD}@db/taskdb
     depends_on:
       - db
   db:
